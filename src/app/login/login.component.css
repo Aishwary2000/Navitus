@@ -1,0 +1,9 @@
+button{
+    cursor: pointer;
+}
+button:hover{
+    color: tomato;
+}
+td{
+font-size: 40px;
+}

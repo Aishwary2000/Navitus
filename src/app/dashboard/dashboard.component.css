@@ -1,0 +1,25 @@
+
+table{
+    border: 0;
+    width: 40%;
+text-align: center;
+
+}
+td{
+    text-align:center;
+    width: 20%;
+}
+header{
+    background-color: antiquewhite;
+   
+}
+
+div{
+    background-color:aqua;
+}
+a:hover{
+    background-color: antiquewhite;
+}
+a{
+   font-size: 40px; 
+}

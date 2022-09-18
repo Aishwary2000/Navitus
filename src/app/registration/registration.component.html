@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h1 id="Heading">Registration Form</h1>
+
+    <form (ngSubmit)="submit()">
+        <div class="form-group">
+            <label for="firstname" class="form-label">Name</label><br>
+            <input required minlength="2" maxlength="7" type="text" class="form-control" name="firstname" ngModel>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="lastname" class="form-label">Lastame</label><br>
+            <input type="text" class="form-control" name="lastname" ngModel>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="email" class="form-label">Email</label><br>
+            <input type="email" class="form-control" name="email" ngModel>
+        </div>
+        <pre></pre>
+        <div class="form-group" id="gender">
+            <label for="gender">Choose your Gender</label><br>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Other
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="pass">CreatePassword</label><br>
+            <input type="password" name="pass" class="form-control" ngModel>
+        </div>
+
+
+
+        <br>
+        <div>
+            <button type="submit" routerLink="/login" routerLinkActivate="active">Submit</button>
+        </div>
+    </form>
+
+</body>
+
+</html>

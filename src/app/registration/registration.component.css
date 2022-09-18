@@ -1,0 +1,25 @@
+div{
+    text-align: center;
+}
+#Heading{
+    color: blue;
+    text-align: center;
+}
+label{
+    text-align: left;
+}
+#gender{
+    cursor: pointer;
+}
+button{
+  cursor: pointer;
+}
+button:hover{
+    color: tomato;
+}
+label{
+    font-size: 30px;
+}
+
+
+
